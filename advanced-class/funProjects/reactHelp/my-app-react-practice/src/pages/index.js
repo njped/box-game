@@ -17,8 +17,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
+            Get started by editing
+            <code className={styles.code}> src/pages/index.js</code>
           </p>
           <div>
             <a
@@ -48,6 +48,7 @@ export default function Home() {
             height={37}
             priority
           />
+          
           <div className={styles.thirteen}>
             <Image
               src="/thirteen.svg"
@@ -70,7 +71,7 @@ export default function Home() {
               Docs <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Find in-depth information about Next.js features and API.
             </p>
           </a>
 
