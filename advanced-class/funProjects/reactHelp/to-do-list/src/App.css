@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+.container {
+  background-color: white;
+  margin: 40vh auto;
+  width: 40%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.addToDo {
+  text-align: center;
+}
+
+.userInput {
+  width: 12vw;
+  margin: 2vw;
+  height: 2vh;
+}
+
+.addBtn {
+  background-color: rgb(88, 155, 255);
+  padding: .5rem 1.2rem;
+  border-radius: 10px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.todo {
+  background-color: rgb(86, 213, 255);
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.deleteBtn {
+  background-color: rgb(23, 23, 249);
+  color: white;
+  border-radius: 5px;
+  padding: 3px 5px
+}
+
+.deleteBtn:hover, .addBtn:hover {
+  cursor: pointer;
+}
