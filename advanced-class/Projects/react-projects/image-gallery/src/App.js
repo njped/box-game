@@ -4,6 +4,7 @@ import './App.css';
 import { GlobalProvider } from './utils/globalContext.js';
 import NavigationBar from './components/Navbar.js'
 import Home from './components/Home.js'
+import Categories from './components/Categories.js'
 import Favorites from './components/Favorites.js'
 import UhOh from './components/UhOh.js'
 
@@ -26,7 +27,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/favorites" element={<Favorites />} />
-          <Route path="/category/:id"></Route>
+          <Route path="/category/:id" element={<Categories category={':id'} />} />
           <Route path="*" element={<UhOh />} />
         </Routes>
       </Router>

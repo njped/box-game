@@ -1,7 +1,10 @@
 import React from 'react'
+import Gallery from './Gallery'
 
 export default function Favorites() {
   return (
-    <h1>Favorites page</h1>
+    <>
+      <Gallery page="favorites"/>
+    </>
   )
 }

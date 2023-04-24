@@ -1,7 +1,8 @@
 import React from 'react'
+import Gallery from './Gallery'
 
 export default function Home () {
   return (
-    <h1>Home</h1>
+      <Gallery page="home"/>
   )
 }
